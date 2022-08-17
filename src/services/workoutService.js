@@ -14,7 +14,7 @@ const getOneWorkout = (workoutId) => {
   return workout;
 };
 
-const createNewWorkout = () => {
+const createNewWorkout = (newWorkout) => {
   const workoutToInsert = {
     ...newWorkout,
     id: uuid(),
